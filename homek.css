@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    background: #131315;
+    font-family: 'Montserrat', sem serifa;
+    font-weight: bold;
+}
+
+.container {
+    color: #fff;
+    width: 300px;
+    margin: 200px auto;
+}
+.button {
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 10px auto;
+    color: #fff;
+
+}
+
+.button {
+    cursor: pointer;
+    background: #800000;
+}
