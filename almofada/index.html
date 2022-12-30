@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Kemilly</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Olá kemilly</h3>
+        <p></p>
+        <div class="login">
+            <input placeholder="USER" id="user" type="text" class="input" data-type="username">
+            <input placeholder="SENHA" id="pass" type="password" class="input" data-type="password">
+            <input type="submit" onclick="logar(); return false" class="button" value="ENTRAR">
+            </div>
+    </div>
+</body>
+<script>
+    
+    function logar(){
+        var user = document.getElementById('user').value;
+        var pass = document.getElementById('pass').value;
+
+        if(user == "kemilly" && pass == "kemylinda"){
+            alert('sucesso');
+            location.href = "/homek.html";
+        }else{
+            alert('Usuario ou Senha incorretoss')
+        }
+    }
+
+
+
+</script>
+
+</html>
